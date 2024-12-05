@@ -30,6 +30,11 @@ export default function MenuNav() {
               FAQ
           </Link>
         </li>
+        <li>
+          <Link href="/test" className={pathname === '/test' ? `text-success` : 'nav-item'}>
+              test
+          </Link>
+        </li>
       </ul>
     </nav>
   );
